@@ -25,7 +25,7 @@ data = pd.read_csv(url, names = column)
 
 #-----------------------------Question 2---------------------------------------
 '''
-Using	Pandas, display	the	 first ten and the last ten rows of the data.
+Using	Pandas, display	the first ten and the last ten rows of the data.
 '''
 data.head(10) # first ten
 data.tail(10) # last ten
@@ -36,7 +36,7 @@ data.tail(10) # last ten
 Using Pandas, print simple location statistics (Count, Mean, STD, Min, 25%, 
 50%, 75%, MAX). There is a single method call that will accomplish this.
 '''
-data.describe() # print statistics
+print(data.describe()) # print statistics
 
 
 #-----------------------------Question 4---------------------------------------
@@ -69,7 +69,7 @@ hist([10,50,100])
 Plot a box plot for each of the numeric column.
 '''
 import matplotlib.pyplot as plt
-for i in column[0:4]:
+for i in column[0:4]:# for each of the first 4 columns
     plt.figure() # make a new plot
     data[i].plot.box() # use only the data on 1 column
     
