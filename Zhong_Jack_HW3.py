@@ -25,7 +25,7 @@ data = pd.read_csv(url, names = column)
 
 #-----------------------------Question 2---------------------------------------
 '''
-Using	Pandas,	display	the	first	ten	and	the	last	ten	rows	of	the	data.
+Using	Pandas, display	the	 first ten and the last ten rows of the data.
 '''
 data.head(10) # first ten
 data.tail(10) # last ten
@@ -80,12 +80,4 @@ Plot a bar chart for the nominal column.
 '''
 nominal_count = data['class'].value_counts() # make a frequency dataframe
 nominal_count.plot.bar() # print the bar plot
-
-
-
-
-
-
-
-
 
