@@ -4,7 +4,7 @@ Created on Thu Sep 22 18:48:25 2016
 
 @author: Jack Zhong
 """
- 
+##Prof G - Nice work!
 #-----------------------------Question 1--------------------------------------- 
 '''
 Search for the IRIS dataset on the internet. You should quickly find the 
